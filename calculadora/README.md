@@ -1,21 +1,13 @@
 ## Calculator
-We have built a calculator to help the children understand better the mathematics operation. 
+Este es un proyecto que trata de ayudar a los niños a entender mejor las operaciones matemáticas, consiste en transformar operaciones matemáticas escritas sencillas, en su 
+representación matemática.
 
-The calculator is able to translate basic words operations to mathematical representation
-
+Input
 ```bash
 python main.py add 1 1
 ```
 
-
-This is a testing exercise, we want to ensure the correct quality of our Calculator class. 
-
-This Calculator has two methods to obtain the mathematical expression and calculate the appropriate result.
-
-```python
-from calculadora.main.calculator import Calculator
-
-calculator = Calculator()
-calculator.get_expression(1, 1, 'add')  # return '1+1'
-calculator.calculate(1, 1, 'add')  # return 2
+Output
+```bash
+1+1=2
 ```

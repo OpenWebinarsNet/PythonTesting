@@ -1,16 +1,23 @@
-This Repository is means to be used with the OpenWebinars Testing with python workshop, but feel free to use it!
+## Python Testing
 
-This repository two projects to show how to use the different python testing modules:
-- unittest
-- mock
-- pytest
+Este repositorio está diseñado para ser usado en conjunto con el taller de testing en python de open webinars, no obstante sientete libre
+de utilizarlo si ves que puede servirte de de ayuda.
 
-For running any of the projects, you need to have installed python ^3.8.
+Se compone de dos proyectos principales:
+- calculadora: Este proyecto es una calculadora, que transforma operaciones matemáticas sencillas de forma escrita, a operaciones matemáticas.
+- jokes: Este proyecto sirve para pasarte un buen rato, ataca a una API Rest de bromas, y recupera las bromas que tú quieras cuanod te haga falta.
 
-The repository contains both file like a monorepo setup, you will find main.py file in their root folder, with this file you will be able to execute their logic.
+Para probar cualquiera de las aplicaciones solo tienes:
 
 ```bash
-python jokes/main.py
+python -m calculadora.main add 1 1
+python -m jokes.main
 ```
 
-You may need to follow some additional steps in order to complete the set up of the projects, read carefully the readme in every project.
+Para ver algunas de sus opciones o como funcionan añade el parámetro -h.
+
+Todos los tests están en la carpeta tests de las aplicaciones, para correrlos solo tienes que:
+
+```bash
+python -m unittest
+```
