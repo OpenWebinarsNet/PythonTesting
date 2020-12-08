@@ -13,9 +13,9 @@ This is a testing exercise, we want to ensure the correct quality of our Calcula
 This Calculator has two methods to obtain the mathematical expression and calculate the appropriate result.
 
 ```python
-from calculator import Calculator
+from calculadora.main.calculator import Calculator
 
 calculator = Calculator()
-calculator.get_expression(1, 1, 'add') # return '1+1'
-calculator.calculate(1, 1, 'add') # return 2
+calculator.get_expression(1, 1, 'add')  # return '1+1'
+calculator.calculate(1, 1, 'add')  # return 2
 ```

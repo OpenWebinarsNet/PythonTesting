@@ -1,4 +1,4 @@
-from exceptions import MathematicalException, OperationDoesntExist
+from calculadora.exceptions import OperationDoesntExist, MathematicalException
 
 
 class Calculator:

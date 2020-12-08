@@ -6,13 +6,10 @@ from typing import Dict, Optional
 class Joke:
     category: str
     type: str
-    setup: Optional[str]
-    delivery: Optional[str]
-    joke: Optional[str]
+    joke: str
     flags: Dict[str, bool]
     id: str
     lang: str
 
     def __str__(self) -> str:
-        joke = self.joke or (f'{self.setup} \n {self.delivery}')
-        return joke
+        return self.joke

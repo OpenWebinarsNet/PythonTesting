@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 
-from joke_service import JokeService
+from jokes.joke_service import JokeService
 
 if __name__ == '__main__':
     parser = ArgumentParser()

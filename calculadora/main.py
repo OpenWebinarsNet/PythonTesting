@@ -1,6 +1,6 @@
 import argparse
 
-from calculator import Calculator
+from calculadora.calculator import Calculator
 
 if __name__ == '__main__':
     parse = argparse.ArgumentParser()
